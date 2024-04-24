@@ -32,7 +32,7 @@ def upload_to_gcs(bucket_name, source_file_path, destination_blob_name, credenti
    
 
 def team():
-    url = "https://cricket.sportmonks.com/api/v2.0/players?api_token=dhHepbK0eso8TmwfjZg1dU4GsfPQ7AERfLT4F9NbcLEp2nP36MU3mmd3sfIA&filter[country_id]=153732?include=career.tournamement_type=ODI"
+    url = "https://cricket.sportmonks.com/api/v2.0/players?api_token=***************************&filter[country_id]=153732?include=career.tournamement_type=ODI"
 
     payload={}
     headers = {}
