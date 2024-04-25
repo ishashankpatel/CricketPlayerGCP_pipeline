@@ -51,7 +51,7 @@ def player():
     p=0
     for id,namee in df:
         ids=str(id)
-        url = "https://cricket.sportmonks.com/api/v2.0/players/"+ids+"?api_token=FjyVGmqKQGSUuZXG1OiiCzAAO8gJpaVqTNE5UYA6IpmMFqHXOmQmRusIBFz5&include=career"
+        url = "https://cricket.sportmonks.com/api/v2.0/players/"+ids+"?api_token=******************************&include=career"
        
         p=p+1;
         payload={}
